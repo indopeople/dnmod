@@ -10,7 +10,7 @@ All mod on IndoPeople no claim by owner this user, but i bring all copyright who
 Don't remove copyright dude!
 
 # Thanks to Dragon Nest Mod EX
-This list of mod from DNMODEX - you can find more at http://bit.ly/2KDHbSG
+This list of mod from DNMODEX - you can find more at [DNMODEX](http://bit.ly/2KDHbSG "DNMODEX Homepage")
 -> [Sorceress] Skill Effects MOD - Royaul 
 -> [Sorceress] Costume MOD - Royaul 
 -> [Tinkerer] Weapon Effects MOD - Marine
