@@ -1,0 +1,21 @@
+password: DNMODex5271
+
+[DNMODex]
+ * MOD = .PAK (DNMODex-xxx.pak)
+ * Pindahkan MOD ke dalam folder Dragon Nest
+
+.::FACE & HAIR::.
+Color : Warna rambut dari Karakter
+Original : Warna rambut dari MOD
+
+.::EQUIP/COSTUME::.
+EU : Untuk karakter yang menggunakan equip Epic & Unique
+Calypse : Untuk karakter yang menggunakan equip Calypse
+IDNL : Untuk karakter yang menggunakan equip Ice Dragon Nest Legend
+RDNL : Untuk karakter yang menggunakan equip Red Dragon Nest Legend
+RUDN : Untuk karakter yang menggunakan equip Rune Dragon Nest Unique
+Guild : Untuk karakter yang menggunakan costume Guild
+Polos : Untuk karakter yang tidak menggunakan equip/costume apapun
+All  : WORK untuk semua equip/cost diatas
+
+tutorial : http://www.dnmodex.com/2017/10/tutorial-mod-dragonnest.html
