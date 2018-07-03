@@ -1,0 +1,479 @@
+/**/
+@import url(https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css);
+
+html,body{
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	-webkit-text-size-adjust:none;
+	font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;
+	letter-spacing: -1px;
+}
+
+p,blockquote,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,th,td,hr,form,fieldset,legend,input,button,textarea{margin:0;padding:0}
+
+a{ color:#f21c59}
+
+body {
+	font-size:14px;
+	font-family: 'Rounded Mplus 1c', "ＭＳ Ｐゴシック", "MS PGothic";
+	min-width:1000px;
+	margin: 0 auto;
+	position: relative;
+	background-image:url(bg.png);
+	background-attachment: fixed;
+	background-position: center top;
+		background-color: #ffedf2;
+	color: #441d0e;
+}
+
+ul,ol,li{list-style:none}
+
+img{
+	border:0;
+	vertical-align:bottom;
+	display: inline-block;
+}
+
+b{color:#1ea130;}
+
+hr{margin: 20px 10px; z-index: 1; size: 3px;background-color:#351707;border:solid 1px #ffcfcd;}
+
+span{
+	background-color:#100;
+	color:#ccc;
+}
+
+/*#header
+-----------------------------------------------------------------------------------------------------------*/
+#header{
+	width: 100%;
+	height:auto;
+	position:fixed;
+	font-size: 12px;
+	z-index: 3;
+
+	-webkit-transition: .35s ease-in-out;
+	-moz-transition: .35s ease-in-out;
+	transition: .35s ease-in-out;
+
+
+
+}
+
+
+
+/*menu
+-------------------------------------------------------------------------------------*/
+
+#menu{
+	width:1200px;
+	position: relative;
+	margin: 0 auto;
+	background-color: rgba(255,120,155,0.85);
+	border-radius: 10px;
+	border: solid 4px #fff;
+	margin: 0 auto;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	box-shadow: 0 0 6px 3px rgba(255,159,171,0.4);
+}
+#menu > li{
+	position: relative;
+}
+#menu > li > a{
+	display: block;
+
+	width: 190px;
+	height:50px;
+	line-height: 50px;
+	font-size: 24px;
+	text-decoration: none;
+
+	border-radius: 5px;
+	margin: 5px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	
+}
+#menu > li:not(.nflow) > a:hover{
+	text-decoration: underline;
+	color: #fe7e9d;
+	background-color: #fff;
+	border-radius: 12px 12px 0 0 ;
+}
+
+#menu > .nflow > a:hover{
+	text-decoration: underline;
+	color: #fe7e9d;
+	background-color: #fff;
+	border-radius: 12px;
+}
+
+.subMenu{
+	position:absolute;
+	top:55px;
+	left:3px;
+	display: none;
+	z-index: 10000;
+	background-color: #fe7e9d;
+	padding-bottom:5px;
+	border-radius: 0 0 5px 5px;
+}
+.subMenu a{
+	display: block;
+	width: 160px;
+	height:20px;
+	padding:10px 15px;
+	text-align: left;
+	border:solid 2px #fe7e9d;
+	background-color:#fff;
+	font-size: 14px;
+	margin-top: -2px;
+	color: #fe7e9d;
+	text-decoration: none;
+
+}
+.subMenu a:hover{
+	background-color: #fe7e9d;
+	color:#fff;
+	text-decoration: underline;
+}
+
+#menuSw{
+	width: 190px;
+	height:30px;
+	line-height:120%;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	padding-top:20px;
+	display: none;
+}
+
+
+/*content
+ -------------------------------------------------------------------------------------*/
+#topSpacer{
+	width: 100%;
+	height:80px;
+	display: block;
+}
+#content{
+	height:auto;
+	position: relative;
+	text-align: left;
+	font-size: 12px;
+	margin-bottom:50px !important;
+	width: 1200px;
+	background-color: #fff;
+	color:#9e033d;
+	margin: 0 auto;
+	border-radius: 8px;
+	box-shadow: 0 0 4px 2px rgba(255,126,157,0.75);
+	background-image: url(pagecont.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+
+h4{
+	display: block;
+	width: 100%;
+	height:69px;
+	line-height:69px;
+	color:#fff;
+	font-size:36px;
+	text-shadow:-1.5px -1.5px #ff6399,1.5px -1.5px #ff6399,-1.5px 1.5px #ff6399,1.5px 1.5px #ff6399,0 0 6px #ff6399;
+	position:relative;
+	background-image: url(titlebg.jpg);
+	overflow: hidden;
+	font-weight: bold;
+	margin-bottom: 10px;
+	
+}
+#page0Cont img{
+
+	vertical-align:bottom;
+}
+
+
+#title{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	text-align: center;
+	font-size: 18px;
+	color:#f93885;
+	padding:20px 0;
+	margin-bottom:5px;
+	border-radius: 8px;
+
+
+}
+#title b{color:#f93885;}
+
+
+
+
+
+
+/*spec
+ -------------------------------------------------------------------------------------*/
+#specc > li{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#specBody{
+	width: 800px;
+	margin:0 auto;
+	position:relative;
+	text-align: left;
+	font-size: 12px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fff;
+	/*
+	box-shadow: 0 150px 200px 0px rgba(0,0,0,0.4) inset, 0 0 0 3px #fdf5be, 0 0 5px 5px rgba(255,255,190,0.3), 0 0 5px 2px rgba(255,255,190,0.3) inset;*/
+	border-radius: 5px;
+	border:double 3px #fe7e9d;
+	padding:5px;
+		color:#512e0e;
+
+}
+#specBody li{
+	width: 274px;
+	height:30px;
+	line-height:30px;
+	position:relative;
+	text-align: center;
+	margin:1px;
+	border: solid 1px #ffcfcd;
+}
+#specBody li:nth-child(3n+1){
+	width: 140px !important;
+	background-Color:rgba(255,151,146,0.25);
+	text-shadow: 0 0 2px #fff;
+
+}
+#specBody li:nth-child(3n+2){
+	width: 324px;
+	background-Color:#fff;
+
+}
+
+#specBody li:nth-child(3n+3){
+	width: 324px;
+	background-Color:rgba(254,126,157,0.55);
+	color:#fff;
+
+}
+
+
+#specBody .ww{width: 652px !important;}
+#specBody .vga{height:52px;}
+
+
+#specBody li b{color: #ff2a00;}
+
+#specBody #specEtc{
+	height:auto;
+	width: 100% !important;
+	line-height:140%;
+	text-shadow: none;
+	background-color:#fff !important;
+	color:#512e0e;
+	position:relative;
+	text-align: left;
+	padding:20px;
+	border: solid 1px ##ffcfcd;
+}
+#specEtc li b{color: #53a03f}
+
+
+
+
+
+	/*初期設定
+ -------------------------------------------------------------------------------------*/
+#startupCont{
+	display: block;
+	position:relative;
+}
+.ContBG{
+	line-height: 22px;
+	font-size:14px;
+	font-weight: normal;
+	width: 98%;
+	margin:0 auto;
+	background-color: #fefaf5;
+	border: solid 3px #ff9792;
+	overflow-y: auto;
+	border-radius: 5px;
+	padding:10px 0;
+	margin-bottom: 4px;
+	box-shadow: 0 0 0 5px #fff inset;
+	background-image:url(li.png);
+	background-position: left 10px;
+	text-align: left;
+
+
+}
+.ContBG > li{
+	float: left;
+	line-height: 22px;
+}
+#startupCont li:first-child{
+padding-left: 10px;
+
+}
+
+.CTextA{
+	color:#456ee4;
+	padding-left: 10px;
+	width: 500px;
+}
+.CTextB{
+	width : -webkit-calc(100% - 555px) ;
+	width : calc(100% - 555px) ;
+	padding-left: 5px;
+}
+.CTextB b{
+	display: block;
+	width: 100%;
+	position: relative;
+	color: #fff;
+	background-color: #1ea130;
+	border-radius: 4px;
+	padding-left: 5px;
+}
+.CTextB .b_sub{
+	display: inline-block;
+	color: #1ea130;
+	font-weight: bold;
+	width: 10em;
+	position: relative;
+}
+.CTextB .b_sub::after{
+	content:" ： ";
+	position: absolute;
+	right: 0;
+}
+
+.lImage .CTextA{
+	width: 600px;
+}
+.lImage .CTextB{
+	width : -webkit-calc(100% - 630px) ;
+	width : calc(100% - 630px) ;
+	padding-left: 5px;
+}
+.image550 .CTextA{
+	width: 550px;
+}
+.image550 .CTextB{
+	width : -webkit-calc(100% - 580px) ;
+	width : calc(100% - 580px) ;
+	padding-left: 5px;
+}
+
+.w100a{
+	width: 96%;
+	margin: 0 auto;
+	font-size: 14px;
+	font-weight: normal;
+	background-color: rgba(254,126,157,0.95);
+	border: solid 3px #ff9792;
+	border-bottom: none;
+	color: #fff;
+	border-bottom: none;
+	height: 30px;
+	line-height: 30px;
+
+}
+.w100{
+	width: 96%;
+	margin: 0 auto;
+	font-size: 14px;
+	font-weight: 900;
+	background-color: #fff;
+	border-bottom: none;
+	font-weight: normal;
+	height: 30px;
+	line-height: 30px;
+	box-shadow: 0 0 0 2px rgba(254,126,157,0.95) inset;
+}
+.w100 b{
+	font-weight: normal;
+	display: inline-block;
+	background-color: rgba(254,126,157,0.95);
+	font-size: 16px;
+	color: #fff;
+	padding:0 10px;
+	
+}
+
+
+
+
+
+
+
+/*footer
+ -------------------------------------------------------------------------------------*/
+
+#footer{
+	position: fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:20px;
+	z-index:1000;
+	padding-top:10px;
+	color:#fff;
+	background-image: url(footer.png);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	
+}
+
+#footer ul{
+	width:960px;
+	height:20px;
+	position: relative;
+	margin: 0 auto;	
+	font-size: 12px;
+}
+#gtop{
+	position:absolute;
+	right:0;
+	bottom:2px;
+	background-color:#000;
+	padding:2px 10px;
+	border-radius:6px;
+	float: right;
+	text-decoration:none;
+	cursor: pointer;
+	border-bottom: none;
+	
+}
+#cl{
+	line-height:20px;
+	width: 100%;
+	text-align: center;
+
+}
+
+
+
